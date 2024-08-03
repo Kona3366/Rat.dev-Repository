@@ -6,4 +6,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Kona3366/Rat.dev-Repo
 --Arsenal
 elseif(gameid == 286090429) then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Kona3366/Rat.dev-Repository/main/Arsenal.lua"))()
+
+else
+  warn("game isnt supported yet")
 end
